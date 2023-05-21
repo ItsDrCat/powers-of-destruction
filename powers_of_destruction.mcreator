@@ -404,10 +404,11 @@
   "workspaceSettings": {
     "modid": "powers_of_destruction",
     "modName": "Powers Of Destruction",
-    "version": "1.0.0",
+    "version": "0.1.0",
+    "description": "Destroy things with the blink of an eye!",
     "author": "ItsDrCat",
-    "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "websiteURL": "https://github.com/ItsDrCat/powers-of-destruction",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -417,7 +418,6 @@
       "portinglib"
     ],
     "currentGenerator": "fabric-1.19.2",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.powwersofdestruction",
     "lockBaseModFiles": false
   },

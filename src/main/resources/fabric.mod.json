@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
   "id": "powers_of_destruction",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "name": "Powers Of Destruction",
+  "description": "Destroy things with the blink of an eye!",
   "authors": [
     "ItsDrCat"
   ],
   "contact": {
-    "homepage": "https://mcreator.net",
+    "homepage": "https://github.com/ItsDrCat/powers-of-destruction",
     "sources": ""
   },
-  "license": "Academic Free License v3.0",
+  "license": "MIT License",
   "accessWidener": "powers_of_destruction.accesswidener",
   "environment": "*",
   "entrypoints": {
