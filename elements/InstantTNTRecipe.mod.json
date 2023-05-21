@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Redpowder"
+      },
+      {
+        "value": "CUSTOM:CompressedRedpowder"
+      },
+      {
+        "value": "CUSTOM:Redpowder"
+      },
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": "CUSTOM:InstantTNT"
+      },
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": "CUSTOM:Redpowder"
+      },
+      {
+        "value": "CUSTOM:CompressedRedpowder"
+      },
+      {
+        "value": "CUSTOM:Redpowder"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:InstantTNT"
+    },
+    "name": "instant_tnt_recipe",
+    "namespace": "mod"
+  }
+}

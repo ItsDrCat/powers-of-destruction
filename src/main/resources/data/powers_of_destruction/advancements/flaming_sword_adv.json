@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "powers_of_destruction:boom_blade"
+    },
+    "title": {
+      "translate": "advancements.flaming_sword_adv.title"
+    },
+    "description": {
+      "translate": "advancements.flaming_sword_adv.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "flaming_sword_adv": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powers_of_destruction:boom_blade"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "minecraft:story/enter_the_nether"
+}

@@ -1,0 +1,12 @@
+{
+  "nuclear_boom": {
+    "category": "neutral",
+    "subtitle": "subtitles.nuclear_boom",
+    "sounds": [
+      {
+        "name": "powers_of_destruction:nuclear_boom",
+        "stream": false
+      }
+    ]
+  }
+}

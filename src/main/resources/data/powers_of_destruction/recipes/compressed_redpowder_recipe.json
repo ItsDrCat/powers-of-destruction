@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "powers_of_destruction:redpowder"
+    },
+    "1": {
+      "item": "powers_of_destruction:redpowder"
+    },
+    "2": {
+      "item": "powers_of_destruction:redpowder"
+    },
+    "3": {
+      "item": "powers_of_destruction:redpowder"
+    },
+    "4": {
+      "item": "minecraft:blaze_rod"
+    },
+    "5": {
+      "item": "powers_of_destruction:redpowder"
+    },
+    "6": {
+      "item": "powers_of_destruction:redpowder"
+    },
+    "7": {
+      "item": "powers_of_destruction:redpowder"
+    },
+    "8": {
+      "item": "powers_of_destruction:redpowder"
+    }
+  },
+  "result": {
+    "item": "powers_of_destruction:compressed_redpowder",
+    "count": 1
+  }
+}

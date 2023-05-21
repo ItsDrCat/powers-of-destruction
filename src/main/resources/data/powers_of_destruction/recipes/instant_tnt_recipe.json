@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "powers_of_destruction:redpowder"
+    },
+    "1": {
+      "item": "powers_of_destruction:compressed_redpowder"
+    },
+    "2": {
+      "item": "powers_of_destruction:redpowder"
+    },
+    "3": {
+      "item": "minecraft:gunpowder"
+    },
+    "4": {
+      "item": "powers_of_destruction:instant_tnt"
+    },
+    "5": {
+      "item": "minecraft:gunpowder"
+    },
+    "6": {
+      "item": "powers_of_destruction:redpowder"
+    },
+    "7": {
+      "item": "powers_of_destruction:compressed_redpowder"
+    },
+    "8": {
+      "item": "powers_of_destruction:redpowder"
+    }
+  },
+  "result": {
+    "item": "powers_of_destruction:instant_tnt",
+    "count": 2
+  }
+}

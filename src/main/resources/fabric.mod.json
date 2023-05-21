@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "powers_of_destruction",
+  "version": "1.0.0",
+  "name": "Powers Of Destruction",
+  "authors": [
+    "ItsDrCat"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "accessWidener": "powers_of_destruction.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.powwersofdestruction.PowersOfDestructionMod"
+    ],
+    "client": [
+      "net.mcreator.powwersofdestruction.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "powers_of_destruction.mixins.json"
+  ]
+}

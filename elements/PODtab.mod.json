@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Powers Of Destruction",
+    "icon": {
+      "value": "CUSTOM:ThrowableNuke"
+    },
+    "showSearch": false
+  }
+}

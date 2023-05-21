@@ -1,0 +1,425 @@
+{
+  "mod_elements": [
+    {
+      "name": "Nuclearexplosion",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "powerful_explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powwersofdestruction/procedures/NuclearexplosionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Test",
+      "type": "command",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powwersofdestruction/command/TestCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Throwableknife",
+      "type": "rangeditem",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwableknife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powwersofdestruction/entity/ThrowableknifeEntity.java",
+          "src/main/java/net/mcreator/powwersofdestruction/client/renderer/ThrowableknifeRenderer.java",
+          "src/main/resources/assets/powers_of_destruction/models/item/throwableknife.json",
+          "src/main/java/net/mcreator/powwersofdestruction/item/ThrowableknifeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BoomBladeRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boom_blade_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powwersofdestruction/procedures/BoomBladeRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BoomBlade",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boom_blade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powwersofdestruction/item/BoomBladeItem.java",
+          "src/main/resources/assets/powers_of_destruction/models/item/boom_blade.json"
+        ]
+      }
+    },
+    {
+      "name": "ThrowableNuke",
+      "type": "rangeditem",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwable_nuke",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/powers_of_destruction/models/item/throwable_nuke.json",
+          "src/main/java/net/mcreator/powwersofdestruction/entity/ThrowableNukeEntity.java",
+          "src/main/java/net/mcreator/powwersofdestruction/client/renderer/ThrowableNukeRenderer.java",
+          "src/main/java/net/mcreator/powwersofdestruction/item/ThrowableNukeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Getgunpowderadv",
+      "type": "achievement",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "getgunpowderadv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/powers_of_destruction/advancements/getgunpowderadv.json"
+        ]
+      }
+    },
+    {
+      "name": "Podadvancment",
+      "type": "achievement",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "podadvancment",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/powers_of_destruction/advancements/podadvancment.json"
+        ]
+      }
+    },
+    {
+      "name": "FlamingSwordAdv",
+      "type": "achievement",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flaming_sword_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/powers_of_destruction/advancements/flaming_sword_adv.json"
+        ]
+      }
+    },
+    {
+      "name": "FlyingBladeadv",
+      "type": "achievement",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_bladeadv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/powers_of_destruction/advancements/flying_bladeadv.json"
+        ]
+      }
+    },
+    {
+      "name": "ThrowingKnifeRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwing_knife_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/powers_of_destruction/recipes/throwing_knife_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AllowNukes",
+      "type": "gamerule",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allowNukes",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    },
+    {
+      "name": "BoomBladeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boom_blade_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/powers_of_destruction/recipes/boom_blade_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Redpowder",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redpowder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powwersofdestruction/item/RedpowderItem.java",
+          "src/main/resources/assets/powers_of_destruction/models/item/redpowder.json"
+        ]
+      }
+    },
+    {
+      "name": "RedpowderRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redpowder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/powers_of_destruction/recipes/redpowder_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CompressedRedpowder",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_redpowder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powwersofdestruction/item/CompressedRedpowderItem.java",
+          "src/main/resources/assets/powers_of_destruction/models/item/compressed_redpowder.json"
+        ]
+      }
+    },
+    {
+      "name": "CompressedRedpowderRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_redpowder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/powers_of_destruction/recipes/compressed_redpowder_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NukeRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuke_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/powers_of_destruction/recipes/nuke_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PODtab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "po_dtab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "InstantTNTExplode",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "instant_tnt_explode",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powwersofdestruction/procedures/InstantTNTExplodeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InstantTNT",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "instant_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/powers_of_destruction/models/item/instant_tnt.json",
+          "src/main/resources/assets/powers_of_destruction/blockstates/instant_tnt.json",
+          "src/main/resources/assets/powers_of_destruction/models/block/instant_tnt.json",
+          "src/main/java/net/mcreator/powwersofdestruction/block/InstantTNTBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "KABOOMadv",
+      "type": "achievement",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kaboo_madv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/powers_of_destruction/advancements/kaboo_madv.json"
+        ]
+      }
+    },
+    {
+      "name": "InstantTNTRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "instant_tnt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/powers_of_destruction/recipes/instant_tnt_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "nuclear_boom",
+      "files": [
+        "nuclear_boom"
+      ],
+      "category": "neutral",
+      "subtitle": "Nuke Explodes"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "itemGroup.powers_of_destruction.po_dtab": "Powers Of Destruction",
+      "advancements.podadvancment.title": "A power of destruction",
+      "advancements.flying_bladeadv.descr": "Get a Throwing Knife",
+      "advancements.flaming_sword_adv.descr": "Get the sword with the power to explode",
+      "item.powers_of_destruction.compressed_redpowder": "Compressed Redpowder",
+      "advancements.kaboo_madv.title": "KABOOM!!!!",
+      "subtitles.nuclear_boom": "Nuke Explodes",
+      "item.powers_of_destruction.throwable_nuke": "Throwable Nuke",
+      "block.powers_of_destruction.instant_tnt": "Instant TNT",
+      "advancements.flaming_sword_adv.title": "Flaming Sword",
+      "advancements.getgunpowderadv.descr": "Get gunpowder",
+      "item.powers_of_destruction.boom_blade": "Boom Blade",
+      "advancements.podadvancment.descr": "Get a throwable nuke",
+      "advancements.flying_bladeadv.title": "Flying Blade",
+      "item.powers_of_destruction.redpowder": "Redpowder",
+      "advancements.kaboo_madv.descr": "Craft and place InstantTNT",
+      "advancements.getgunpowderadv.title": "Explosive Powder",
+      "gamerule.allowNukes.description": "Allows nukes to explode",
+      "gamerule.allowNukes": "Allow Nukes",
+      "item.powers_of_destruction.throwableknife": "Throwable Knife"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "powers_of_destruction",
+    "modName": "Powers Of Destruction",
+    "version": "1.0.0",
+    "author": "ItsDrCat",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "portinglib"
+    ],
+    "currentGenerator": "fabric-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.powwersofdestruction",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "powers_of_destruction:instant_tnt"
+    },
+    "title": {
+      "translate": "advancements.kaboo_madv.title"
+    },
+    "description": {
+      "translate": "advancements.kaboo_madv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kaboo_madv": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "powers_of_destruction:instant_tnt"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "powers_of_destruction:getgunpowderadv"
+}

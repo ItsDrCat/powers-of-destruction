@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "powers_of_destruction:redpowder"
+    },
+    "1": {
+      "item": "minecraft:blaze_powder"
+    },
+    "2": {
+      "item": "powers_of_destruction:redpowder"
+    },
+    "3": {
+      "item": "minecraft:blaze_powder"
+    },
+    "4": {
+      "item": "minecraft:tnt"
+    },
+    "5": {
+      "item": "minecraft:blaze_powder"
+    },
+    "6": {
+      "item": "powers_of_destruction:redpowder"
+    },
+    "7": {
+      "item": "minecraft:netherite_sword"
+    },
+    "8": {
+      "item": "powers_of_destruction:redpowder"
+    }
+  },
+  "result": {
+    "item": "powers_of_destruction:boom_blade",
+    "count": 1
+  }
+}

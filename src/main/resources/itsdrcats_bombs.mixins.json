@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.mcreator.itsdrcatsbombs.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"ItsdrcatsBombsModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}

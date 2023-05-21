@@ -1,0 +1,37 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "boom_blade",
+    "customModelName": "Normal",
+    "name": "Boom Blade",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:PODtab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 0.7,
+    "enchantability": 4,
+    "damageVsEntity": 9.5,
+    "usageCount": 175,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Items.BLAZE_ROD"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "BoomBladeRightclickedOnBlock"
+    },
+    "onEntityHitWith": {
+      "name": "BoomBladeRightclickedOnBlock"
+    }
+  }
+}

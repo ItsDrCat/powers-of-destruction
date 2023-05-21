@@ -1,0 +1,37 @@
+{
+  "_fv": 39,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "throwable_knife",
+    "customModelName": "Normal",
+    "name": "Throwable Knife",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:PODtab"
+    },
+    "stackSize": 16,
+    "ammoItem": {
+      "value": "CUSTOM:Throwableknife"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "item.trident.throw"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 6.0,
+    "bulletPower": 2.0,
+    "bulletDamage": 6.0,
+    "bulletKnockback": 7,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Throwableknife"
+    },
+    "bulletModel": "Modelknife_model",
+    "customBulletModelTexture": "knife_entity_texture.png"
+  }
+}

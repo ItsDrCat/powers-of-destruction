@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "powers_of_destruction:blocks/instant_tnt_top_right_corner",
+    "up": "powers_of_destruction:blocks/instant_tnt_side",
+    "north": "powers_of_destruction:blocks/instant_tnt_top",
+    "east": "powers_of_destruction:blocks/instant_tnt_top",
+    "south": "powers_of_destruction:blocks/instant_tnt_top",
+    "west": "powers_of_destruction:blocks/instant_tnt_top",
+    "particle": "powers_of_destruction:blocks/instant_tnt_top_right_corner"
+  }
+}
