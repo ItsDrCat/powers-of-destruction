@@ -411,6 +411,7 @@
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "pod_logo512",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
@@ -418,6 +419,7 @@
       "portinglib"
     ],
     "currentGenerator": "fabric-1.19.2",
+    "credits": "Made with MCreator!",
     "modElementsPackage": "net.mcreator.powwersofdestruction",
     "lockBaseModFiles": false
   },
