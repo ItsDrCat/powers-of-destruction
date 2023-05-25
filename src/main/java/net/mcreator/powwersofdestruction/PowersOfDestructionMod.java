@@ -12,6 +12,8 @@
  */
 package net.mcreator.powwersofdestruction;
 
+import software.bernie.geckolib3.GeckoLib;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -48,6 +50,7 @@ public class PowersOfDestructionMod implements ModInitializer {
 
 		PowersOfDestructionModSounds.load();
 
+		GeckoLib.initialize();
 		ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> {
 			if (handler.getPlayer().getExtraCustomData().getCompound("PlayerPersisted").isEmpty()) {
 				handler.getPlayer().getExtraCustomData().put("PlayerPersisted", new CompoundTag());

@@ -8,5 +8,15 @@
         "stream": false
       }
     ]
+  },
+  "explosion_totem_use": {
+    "category": "neutral",
+    "subtitle": "subtitles.explosion_totem_use",
+    "sounds": [
+      {
+        "name": "powers_of_destruction:explosiontotem_use",
+        "stream": false
+      }
+    ]
   }
 }

@@ -1,0 +1,89 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "builtin/entity",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "Desktop/kataana",
+		"particle": "katana"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 8],
+			"to": [8, 5, 10],
+			"faces": {
+				"north": {"uv": [5, 0, 5, 2.5], "texture": "#missing"},
+				"east": {"uv": [4, 0, 5, 2.5], "texture": "#1"},
+				"south": {"uv": [6, 0, 6, 2.5], "texture": "#missing"},
+				"west": {"uv": [5, 0, 6, 2.5], "texture": "#1"},
+				"up": {"uv": [5, 0, 5, -1], "texture": "#missing"},
+				"down": {"uv": [5, -1, 5, 0], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [8, 5, 7],
+			"to": [8, 32, 11],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 13.5], "texture": "#missing"},
+				"east": {"uv": [2, 0, 0, 13.5], "texture": "#1"},
+				"south": {"uv": [2, 0, 2, 13.5], "texture": "#missing"},
+				"west": {"uv": [0, 0, 2, 13.5], "texture": "#1"},
+				"up": {"uv": [2, 0, 0, 0], "rotation": 270, "texture": "#missing"},
+				"down": {"uv": [2, 0, 0, 0], "rotation": 90, "texture": "#missing"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [4, 9, 1],
+			"translation": [0, 4.25, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-9, 159, -180],
+			"translation": [0, -7.5, 2.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [-19, 4, 20],
+			"translation": [-0.5, 4, 2.75],
+			"scale": [0, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [109, 63, 17],
+			"translation": [-0.25, 0.75, 7.25]
+		},
+		"ground": {
+			"rotation": [138, -161, 69],
+			"translation": [0, -1.25, 0]
+		},
+		"gui": {
+			"rotation": [-172, 110, 152],
+			"translation": [-0.5, -4, -7.5],
+			"scale": [0.52, 0.53, 0.53]
+		},
+		"head": {
+			"rotation": [-98, -59, 19],
+			"translation": [3.25, 12, 8]
+		},
+		"fixed": {
+			"rotation": [0, 63, 0],
+			"translation": [0, -8.25, -2.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "bone",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				0,
+				{
+					"name": "bone2",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"nbt": "{}",
+					"children": [1]
+				}
+			]
+		}
+	]
+}

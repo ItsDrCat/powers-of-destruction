@@ -1,5 +1,6 @@
 {
   "itemGroup.powers_of_destruction.po_dtab": "Powers Of Destruction",
+  "subtitles.explosion_totem_use": "Totem of Explosion whirs",
   "advancements.podadvancment.title": "A power of destruction",
   "advancements.flying_bladeadv.descr": "Get a Throwing Knife",
   "advancements.flaming_sword_adv.descr": "Get the sword with the power to explode",
@@ -10,6 +11,7 @@
   "block.powers_of_destruction.instant_tnt": "Instant TNT",
   "advancements.flaming_sword_adv.title": "Flaming Sword",
   "advancements.getgunpowderadv.descr": "Get gunpowder",
+  "item.powers_of_destruction.totem_of_explosion": "Totem Of Explosion",
   "item.powers_of_destruction.boom_blade": "Boom Blade",
   "advancements.podadvancment.descr": "Get a throwable nuke",
   "advancements.flying_bladeadv.title": "Flying Blade",

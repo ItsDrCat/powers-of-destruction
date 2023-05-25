@@ -6,6 +6,7 @@ import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.Explosion;
@@ -28,7 +29,7 @@ import java.util.List;
 import java.util.Collections;
 
 public class InstantTNTBlock extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.EXPLOSIVE).sound(SoundType.CROP).strength(1f, 10f);
+	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.EXPLOSIVE).sound(SoundType.CROP).strength(1f, 0f);
 
 	public InstantTNTBlock() {
 		super(PROPERTIES);
@@ -50,7 +51,7 @@ public class InstantTNTBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(Blocks.AIR));
 	}
 
 	@Override

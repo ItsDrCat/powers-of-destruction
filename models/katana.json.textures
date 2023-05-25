@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "kataana",
+        "missing": "instant_tnt_top_right_corner"
+      },
+      "name": "default"
+    }
+  }
+}
