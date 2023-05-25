@@ -1,8 +1,10 @@
 package net.mcreator.powwersofdestruction.procedures;
 
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.Explosion;
+import net.minecraft.core.BlockPos;
 
 import net.mcreator.powwersofdestruction.PowersOfDestructionMod;
 
@@ -35,6 +37,7 @@ public class InstantTNTExplodeProcedure {
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
+		world.setBlock(new BlockPos(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 		if (world instanceof Level _level && !_level.isClientSide())
 			_level.explode(null, x, y, z, 8, Explosion.BlockInteraction.BREAK);
 	}
