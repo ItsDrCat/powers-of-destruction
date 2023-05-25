@@ -413,6 +413,32 @@
           "src/main/java/net/mcreator/powwersofdestruction/item/TotemOfExplosionItem.java"
         ]
       }
+    },
+    {
+      "name": "TotemOfExplosionrecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_explosionrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/powers_of_destruction/recipes/totem_of_explosionrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeathTotemadv",
+      "type": "achievement",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_totemadv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/powers_of_destruction/advancements/death_totemadv.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -437,25 +463,27 @@
   "language_map": {
     "en_us": {
       "itemGroup.powers_of_destruction.po_dtab": "Powers Of Destruction",
-      "subtitles.explosion_totem_use": "Totem of Explosion whirs",
-      "advancements.podadvancment.title": "A power of destruction",
       "advancements.flying_bladeadv.descr": "Get a Throwing Knife",
       "advancements.flaming_sword_adv.descr": "Get the sword with the power to explode",
-      "item.powers_of_destruction.compressed_redpowder": "Compressed Redpowder",
       "advancements.kaboo_madv.title": "KABOOM!!!!",
       "subtitles.nuclear_boom": "Nuke Explodes",
+      "advancements.flaming_sword_adv.title": "Flaming Sword",
+      "item.powers_of_destruction.redpowder": "Redpowder",
+      "advancements.getgunpowderadv.title": "Explosive Powder",
+      "advancements.death_totemadv.descr": "Craft a totem that will kill you",
+      "gamerule.allowNukes.description": "Allows nukes to explode",
+      "advancements.death_totemadv.title": "Death Totem",
+      "subtitles.explosion_totem_use": "Totem of Explosion whirs",
+      "advancements.podadvancment.title": "A power of destruction",
+      "item.powers_of_destruction.compressed_redpowder": "Compressed Redpowder",
       "item.powers_of_destruction.throwable_nuke": "Throwable Nuke",
       "block.powers_of_destruction.instant_tnt": "Instant TNT",
-      "advancements.flaming_sword_adv.title": "Flaming Sword",
       "advancements.getgunpowderadv.descr": "Get gunpowder",
       "item.powers_of_destruction.totem_of_explosion": "Totem Of Explosion",
-      "item.powers_of_destruction.boom_blade": "Boom Blade",
-      "advancements.podadvancment.descr": "Get a throwable nuke",
       "advancements.flying_bladeadv.title": "Flying Blade",
-      "item.powers_of_destruction.redpowder": "Redpowder",
+      "advancements.podadvancment.descr": "Get a throwable nuke",
+      "item.powers_of_destruction.boom_blade": "Boom Blade",
       "advancements.kaboo_madv.descr": "Craft and place InstantTNT",
-      "advancements.getgunpowderadv.title": "Explosive Powder",
-      "gamerule.allowNukes.description": "Allows nukes to explode",
       "gamerule.allowNukes": "Allow Nukes",
       "item.powers_of_destruction.throwableknife": "Throwable Knife"
     }

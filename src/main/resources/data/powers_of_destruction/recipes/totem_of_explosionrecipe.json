@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "powers_of_destruction:instant_tnt"
+    },
+    "1": {
+      "item": "powers_of_destruction:compressed_redpowder"
+    },
+    "2": {
+      "item": "powers_of_destruction:instant_tnt"
+    },
+    "3": {
+      "item": "powers_of_destruction:compressed_redpowder"
+    },
+    "4": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "5": {
+      "item": "powers_of_destruction:compressed_redpowder"
+    },
+    "6": {
+      "item": "powers_of_destruction:instant_tnt"
+    },
+    "7": {
+      "item": "powers_of_destruction:compressed_redpowder"
+    },
+    "8": {
+      "item": "powers_of_destruction:instant_tnt"
+    }
+  },
+  "result": {
+    "item": "powers_of_destruction:totem_of_explosion",
+    "count": 1
+  }
+}

@@ -12,6 +12,7 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 import net.minecraft.client.Minecraft;
@@ -70,6 +71,30 @@ public class TotemExplodeProcedure {
 		if (entity instanceof Player _player) {
 			ItemStack _stktoremove = new ItemStack(PowersOfDestructionModItems.TOTEM_OF_EXPLOSION);
 			_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+		}
+		{
+			// Get the radius of the sphere
+			double radius = 3; // 3 blocks
+			// Set the tolerance for how close to the surface a point must be to create a particle
+			double tolerance = 0.4; // 0.1 blocks
+			for (double xx = -radius; xx <= radius; xx += 0.1) {
+				for (double yy = -radius; yy <= radius; yy += 0.1) {
+					for (double zz = -radius; zz <= radius; zz += 0.1) {
+						if (Math.abs(xx * xx + yy * yy + zz * zz - radius * radius) <= tolerance) {
+							// Calculate the position of the particle
+							double posX = x + xx;
+							double posY = y + yy;
+							double posZ = z + zz;
+							if ((true)) {
+								if (world instanceof ServerLevel)
+									((ServerLevel) world).sendParticles(ParticleTypes.FLAME, posX, posY, posZ, (int) 1, 0.01, 0.01, 0.01, 0);
+							} else {
+								world.addParticle(ParticleTypes.FLAME, posX, posY, posZ, 0, 0, 0);
+							}
+						}
+					}
+				}
+			}
 		}
 		new Object() {
 			private int ticks = 0;
