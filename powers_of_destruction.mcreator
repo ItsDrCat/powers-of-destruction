@@ -507,8 +507,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "portinglib",
-      "geckolib"
+      "portinglib"
     ],
     "currentGenerator": "fabric-1.19.2",
     "credits": "Made with MCreator!",
