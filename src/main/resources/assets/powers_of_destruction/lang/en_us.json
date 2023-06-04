@@ -18,6 +18,7 @@
   "block.powers_of_destruction.instant_tnt": "Instant TNT",
   "advancements.getgunpowderadv.descr": "Get gunpowder",
   "item.powers_of_destruction.totem_of_explosion": "Totem Of Explosion",
+  "advancements.bobadv.descr": "you got bob, somehow",
   "advancements.flying_bladeadv.title": "Flying Blade",
   "advancements.podadvancment.descr": "Get a throwable nuke",
   "item.powers_of_destruction.boom_blade": "Boom Blade",
@@ -25,5 +26,6 @@
   "item.powers_of_destruction.bob": "Bob",
   "item.powers_of_destruction.katana": "Katana",
   "gamerule.allowNukes": "Allow Nukes",
+  "advancements.bobadv.title": "Bobadv",
   "item.powers_of_destruction.throwableknife": "Throwable Knife"
 }
