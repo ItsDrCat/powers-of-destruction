@@ -26,6 +26,6 @@
   "item.powers_of_destruction.bob": "Bob",
   "item.powers_of_destruction.katana": "Katana",
   "gamerule.allowNukes": "Allow Nukes",
-  "advancements.bobadv.title": "Bobadv",
+  "advancements.bobadv.title": "Bob_advancement",
   "item.powers_of_destruction.throwableknife": "Throwable Knife"
 }

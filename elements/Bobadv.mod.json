@@ -2,7 +2,7 @@
   "_fv": 39,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Bobadv",
+    "achievementName": "Bob_advancement",
     "achievementDescription": "you got bob, somehow",
     "achievementIcon": {
       "value": "CUSTOM:Bob"
