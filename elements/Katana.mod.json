@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "katana",
+    "customModelName": "Normal",
+    "name": "Katana",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:PODTabTest"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 0.0,
+    "attackSpeed": 2.0,
+    "enchantability": 4,
+    "damageVsEntity": 8.4,
+    "usageCount": 452,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

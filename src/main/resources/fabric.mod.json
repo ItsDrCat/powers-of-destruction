@@ -12,7 +12,6 @@
     "sources": ""
   },
   "license": "MIT License",
-  "icon": "assets/powers_of_destruction/icon.png",
   "accessWidener": "powers_of_destruction.accesswidener",
   "environment": "*",
   "entrypoints": {

@@ -1,0 +1,7 @@
+{
+  "_fv": 39,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"texture_changer\"><value name=\"texturetochange\"><block type=\"text\"><field name=\"TEXT\">minecraft:textures/blocks/dirt.png</field></block></value><value name=\"newtexture\"><block type=\"text\"><field name=\"TEXT\">powers_of_destruction:textures/items/bob.png</field></block></value><next><block type=\"texture_changer\"><value name=\"texturetochange\"><block type=\"text\"><field name=\"TEXT\">minecraft:textures/blocks/stone.png</field></block></value><value name=\"newtexture\"><block type=\"text\"><field name=\"TEXT\">powers_of_destruction:textures/items/bob.png</field></block></value><next><block type=\"texture_changer\"><value name=\"texturetochange\"><block type=\"text\"><field name=\"TEXT\">minecraft:textures/blocks/deepslate.png</field></block></value><value name=\"newtexture\"><block type=\"text\"><field name=\"TEXT\">powers_of_destruction:textures/items/bob.png</field></block></value><next><block type=\"texture_changer\"><value name=\"texturetochange\"><block type=\"text\"><field name=\"TEXT\">minecraft:textures/blocks/sand.png</field></block></value><value name=\"newtexture\"><block type=\"text\"><field name=\"TEXT\">powers_of_destruction:textures/items/bob.png</field></block></value></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}

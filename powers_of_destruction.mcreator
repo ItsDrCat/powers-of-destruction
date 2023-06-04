@@ -53,10 +53,10 @@
       "registry_name": "throwableknife",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/powwersofdestruction/entity/ThrowableknifeEntity.java",
           "src/main/java/net/mcreator/powwersofdestruction/client/renderer/ThrowableknifeRenderer.java",
-          "src/main/resources/assets/powers_of_destruction/models/item/throwableknife.json",
-          "src/main/java/net/mcreator/powwersofdestruction/item/ThrowableknifeItem.java"
+          "src/main/java/net/mcreator/powwersofdestruction/item/ThrowableknifeItem.java",
+          "src/main/java/net/mcreator/powwersofdestruction/entity/ThrowableknifeEntity.java",
+          "src/main/resources/assets/powers_of_destruction/models/item/throwableknife.json"
         ]
       }
     },
@@ -114,9 +114,9 @@
       "registry_name": "throwable_nuke",
       "metadata": {
         "files": [
-          "src/main/resources/assets/powers_of_destruction/models/item/throwable_nuke.json",
           "src/main/java/net/mcreator/powwersofdestruction/entity/ThrowableNukeEntity.java",
           "src/main/java/net/mcreator/powwersofdestruction/client/renderer/ThrowableNukeRenderer.java",
+          "src/main/resources/assets/powers_of_destruction/models/item/throwable_nuke.json",
           "src/main/java/net/mcreator/powwersofdestruction/item/ThrowableNukeItem.java"
         ]
       }
@@ -220,8 +220,8 @@
       "registry_name": "redpowder",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/powwersofdestruction/item/RedpowderItem.java",
-          "src/main/resources/assets/powers_of_destruction/models/item/redpowder.json"
+          "src/main/resources/assets/powers_of_destruction/models/item/redpowder.json",
+          "src/main/java/net/mcreator/powwersofdestruction/item/RedpowderItem.java"
         ]
       }
     },
@@ -247,8 +247,8 @@
       "registry_name": "compressed_redpowder",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/powwersofdestruction/item/CompressedRedpowderItem.java",
-          "src/main/resources/assets/powers_of_destruction/models/item/compressed_redpowder.json"
+          "src/main/resources/assets/powers_of_destruction/models/item/compressed_redpowder.json",
+          "src/main/java/net/mcreator/powwersofdestruction/item/CompressedRedpowderItem.java"
         ]
       }
     },
@@ -281,6 +281,7 @@
     {
       "name": "PODtab",
       "type": "tab",
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "po_dtab",
@@ -328,10 +329,10 @@
       "registry_name": "instant_tnt",
       "metadata": {
         "files": [
-          "src/main/resources/assets/powers_of_destruction/models/item/instant_tnt.json",
-          "src/main/resources/assets/powers_of_destruction/blockstates/instant_tnt.json",
+          "src/main/java/net/mcreator/powwersofdestruction/block/InstantTNTBlock.java",
           "src/main/resources/assets/powers_of_destruction/models/block/instant_tnt.json",
-          "src/main/java/net/mcreator/powwersofdestruction/block/InstantTNTBlock.java"
+          "src/main/resources/assets/powers_of_destruction/models/item/instant_tnt.json",
+          "src/main/resources/assets/powers_of_destruction/blockstates/instant_tnt.json"
         ]
       }
     },
@@ -439,6 +440,64 @@
           "src/main/resources/data/powers_of_destruction/advancements/death_totemadv.json"
         ]
       }
+    },
+    {
+      "name": "PODTabTest",
+      "type": "tab",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pod_tab_test",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BobRightclicked",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bob_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powwersofdestruction/procedures/BobRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bob",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bob",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powwersofdestruction/item/BobItem.java",
+          "src/main/resources/assets/powers_of_destruction/models/item/bob.json"
+        ]
+      }
+    },
+    {
+      "name": "Katana",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powwersofdestruction/item/KatanaItem.java",
+          "src/main/resources/assets/powers_of_destruction/models/item/katana.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -465,6 +524,7 @@
       "itemGroup.powers_of_destruction.po_dtab": "Powers Of Destruction",
       "advancements.flying_bladeadv.descr": "Get a Throwing Knife",
       "advancements.flaming_sword_adv.descr": "Get the sword with the power to explode",
+      "itemGroup.powers_of_destruction.pod_tab_test": "Powers Of Destruction Tests",
       "advancements.kaboo_madv.title": "KABOOM!!!!",
       "subtitles.nuclear_boom": "Nuke Explodes",
       "advancements.flaming_sword_adv.title": "Flaming Sword",
@@ -484,6 +544,8 @@
       "advancements.podadvancment.descr": "Get a throwable nuke",
       "item.powers_of_destruction.boom_blade": "Boom Blade",
       "advancements.kaboo_madv.descr": "Craft and place InstantTNT",
+      "item.powers_of_destruction.bob": "Bob",
+      "item.powers_of_destruction.katana": "Katana",
       "gamerule.allowNukes": "Allow Nukes",
       "item.powers_of_destruction.throwableknife": "Throwable Knife"
     }
@@ -502,7 +564,6 @@
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "pod_logo512",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

@@ -2,6 +2,7 @@
   "itemGroup.powers_of_destruction.po_dtab": "Powers Of Destruction",
   "advancements.flying_bladeadv.descr": "Get a Throwing Knife",
   "advancements.flaming_sword_adv.descr": "Get the sword with the power to explode",
+  "itemGroup.powers_of_destruction.pod_tab_test": "Powers Of Destruction Tests",
   "advancements.kaboo_madv.title": "KABOOM!!!!",
   "subtitles.nuclear_boom": "Nuke Explodes",
   "advancements.flaming_sword_adv.title": "Flaming Sword",
@@ -21,6 +22,8 @@
   "advancements.podadvancment.descr": "Get a throwable nuke",
   "item.powers_of_destruction.boom_blade": "Boom Blade",
   "advancements.kaboo_madv.descr": "Craft and place InstantTNT",
+  "item.powers_of_destruction.bob": "Bob",
+  "item.powers_of_destruction.katana": "Katana",
   "gamerule.allowNukes": "Allow Nukes",
   "item.powers_of_destruction.throwableknife": "Throwable Knife"
 }

@@ -8,6 +8,7 @@ import net.mcreator.powwersofdestruction.procedures.TotemExplodeProcedure;
 import net.mcreator.powwersofdestruction.procedures.NuclearexplosionProcedure;
 import net.mcreator.powwersofdestruction.procedures.InstantTNTExplodeProcedure;
 import net.mcreator.powwersofdestruction.procedures.BoomBladeRightclickedOnBlockProcedure;
+import net.mcreator.powwersofdestruction.procedures.BobRightclickedProcedure;
 
 @SuppressWarnings("InstantiationOfUtilityClass")
 public class PowersOfDestructionModProcedures {
@@ -16,5 +17,6 @@ public class PowersOfDestructionModProcedures {
 		new NuclearexplosionProcedure();
 		new InstantTNTExplodeProcedure();
 		new TotemExplodeProcedure();
+		new BobRightclickedProcedure();
 	}
 }
